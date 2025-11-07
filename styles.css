@@ -37,3 +37,19 @@ body {
   75% { border-color: rgba(178, 34, 34, 0.9); } /* Retorna ao vermelho tijolo */
   100% { border-color: rgba(139, 0, 0, 0.9); } /* Volta ao vermelho escuro */
 }
+
+.titulo{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.github{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    max-width: 50px;
+    padding: 10px;
+    filter: invert(100%);
+}
